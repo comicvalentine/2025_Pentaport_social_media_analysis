@@ -1,4 +1,4 @@
-[아티클 참조](https://lab-chasm.vercel.app/article/15)
+### [아티클 참조](https://lab-chasm.vercel.app/article/15)
 
 <div align="center">
   <img src="./fig/sentiment_by_topic.png" alt="Sentiment by Topic" width="45%"/>
@@ -21,3 +21,4 @@
 > 1. `OPENAI_API_KEY`를 `.txt` 파일에 저장  
 > 2. 해당 파일 이름을 `.env`로 변경  
 > 3. `GPT_1.py`, `GPT_2.py`에서 `.env`를 통해 API 키 자동 로드
+

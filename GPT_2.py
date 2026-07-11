@@ -69,12 +69,6 @@ All tweets are related to the **2025 PentaPort Rock Festival (펜타포트 락�
 {"없음"}
 """
 
-import asyncio
-import pickle
-import os
-from dotenv import load_dotenv
-from openai import AsyncOpenAI
-
 load_dotenv('.env')
 
 client = AsyncOpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
